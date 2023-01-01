@@ -9,9 +9,7 @@ import os
 
 
 class Config(object):
-    APP_ID = int(os.environ.get("APP_ID", "1923471
-
-"))
+    APP_ID = int(os.environ.get("APP_ID", "1923471"))
     API_HASH = os.environ.get("API_HASH","fcdc178451cd234e63faefd38895c991")
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1965973276:AAFngpmzKFyESfcvQscv7S7Dmus7N-nksWI")
     AUTH_USERS = [int(x) for x in os.environ.get("AUTH_USERS", "880087645").split()]
