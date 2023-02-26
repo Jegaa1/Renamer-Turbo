@@ -1,0 +1,51 @@
+{
+  "name": "renamebot",
+  "stack": "container",
+  "description": "A simple rename bot with many features",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "Rename",
+    "pyrogram"
+  ],
+  "website": "https://github.com/Mdbotz/md-renamebot",
+  "repository": "https://github.com/Mdbotz/md-renamebot",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": false
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "required": false
+    },
+    "TG_BOT_TOKE": {
+      "description": "Your bot token",
+      "required": false
+    },
+    "AUTH_USERS": {
+      "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "ID or Username of the Bot Owner",
+      "required": false
+    },
+    "DATABASE_URI": {
+      "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
+      "required": false
+    }
+  },
+  "addons": [],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
