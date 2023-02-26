@@ -1,5 +1,10 @@
 # TG-RenameBot
 
+
+# DEPLOY TO HEROKU
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
+
 A better rename and convert bot with upload mode option
 and Auto detection written in [Python3](https://www.python.org)
 using [Pyrogram](https://docs.pyrogram.org)!!
