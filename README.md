@@ -3,7 +3,7 @@
 
 # DEPLOY TO HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jegaa1/Renamer-Turbo)
 
 A better rename and convert bot with upload mode option
 and Auto detection written in [Python3](https://www.python.org)
